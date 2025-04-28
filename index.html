@@ -130,7 +130,7 @@
         .btn-nota {
             background-color: #e74c3c;
             color: white;
-            padding: 15px 25px; /* Increased padding for better clickability */
+            padding: 18px 28px; /* Increased padding for better clickability */
             font-weight: 600;
             border-radius: 4px;
             text-decoration: none;
@@ -141,11 +141,12 @@
             cursor: pointer; /* Ensures it looks clickable */
         }
         
-        .btn-nota:hover {
+        .btn-nota:hover, .btn-nota:active {
             background-color: #c0392b;
             color: white;
             transform: translateY(-3px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            cursor: pointer; /* Ensures hover is responsive */
         }
         
         .btn-primary {
